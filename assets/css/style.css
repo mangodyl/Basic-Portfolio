@@ -2,34 +2,48 @@
 * {
     box-sizing: border-box;
     text-align: center;
-    color: aliceblue;
   }
+
+#all-content {
+    max-width: 960px;
+    margin: 0 auto;
+    color: aliceblue;
+}
 
 body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     background: url("../images/folk-pattern-black.png");
+   
 }
 
 h1 {
-    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-family: 'Georgia', Times, serif;
 }
 
 .button-nav {
     float: left;
 }
 
-.button-border {
-    border-right: 1px solid lightgray;
-}
-
-.control-panel {
+.nav-bar {
     position: fixed;
     top: 0;
+    color: black;
+    background-color: aliceblue;
+    width: 100%;
 
+}
+
+#control-name {
+    color: aliceblue;
+    background-color: black;
+    float: left;
+    padding: 10px 20px;
+    margin-left: 20%;
+    margin-bottom: 0;
 }
 
 #content-index {
-
+    
 
 }
 

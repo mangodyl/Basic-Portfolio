@@ -1,0 +1,39 @@
+
+* {
+    box-sizing: border-box;
+    text-align: center;
+    color: aliceblue;
+  }
+
+body {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background: url("../images/folk-pattern-black.png");
+}
+
+h1 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.button-nav {
+    float: left;
+}
+
+.button-border {
+    border-right: 1px solid lightgray;
+}
+
+.control-panel {
+    position: fixed;
+    top: 0;
+
+}
+
+#content-index {
+
+
+}
+
+footer {
+    padding: 20px 30px;
+    background-color: slategray;
+}

@@ -1,7 +1,7 @@
 
 * {
     box-sizing: border-box;
-    text-align: center;
+    
   }
 
 #all-content {
@@ -18,15 +18,22 @@ body {
 
 h1 {
     font-family: 'Georgia', Times, serif;
+    text-align: center;
+}
+
+.page-title  {
+    font-size: 300%;
 }
 
 .button-nav {
     float: left;
+    margin-right: 100px;
 }
 
 .nav-bar {
     position: fixed;
     top: 0;
+    left: 0;
     color: black;
     background-color: aliceblue;
     width: 100%;
@@ -41,14 +48,24 @@ h1 {
     padding: 10px 20px;
     margin-left: 20%;
     margin-bottom: 0;
+    border: 2px solid black;
 }
 
 #content-index {
-    
+     margin-top: 200px;
+}
 
+#profile-pic {
+    float: left;
+    border-radius: 5%;
+    max-width: 50%;
+    height: auto;
+    margin-right: 25px;
+    margin-bottom: 20px;
 }
 
 footer {
+    text-align: center;
     padding: 20px 30px;
     background-color: slategray;
 }

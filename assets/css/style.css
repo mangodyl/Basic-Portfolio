@@ -1,7 +1,7 @@
 
 * {
     box-sizing: border-box;
-    
+
   }
 
 #all-content {
@@ -46,8 +46,8 @@ h1 {
     background-color: black;
     float: left;
     padding: 10px 20px;
-    margin-left: 20%;
-    margin-bottom: 0;
+    margin-left: 360px;
+    margin-top: 50px;
     border: 2px solid black;
 }
 

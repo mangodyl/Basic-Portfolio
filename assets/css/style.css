@@ -27,7 +27,21 @@ h1 {
 
 .button-nav {
     float: left;
-    margin-right: 100px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.nav-links {
+    margin-left: 60%;
+    margin-top: 50px;
+}
+
+#nav-contact {
+    border-left: 1px solid slategray;
+}
+
+#nav-portfolio {
+    border-left: 1px solid slategray;
 }
 
 .nav-bar {

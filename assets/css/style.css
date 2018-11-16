@@ -55,6 +55,7 @@ h1 {
     width: 100%;
     height: 80px;
     border-bottom: 5px solid black;
+    z-index: 1;
 }
 
 .control-name {
@@ -145,4 +146,20 @@ input[type=submit]:hover {
 .portfolio-image {
     margin: 50px;
 }
+
+.container1, .container2, .container3, .container4 {
+    position: relative;
+    display: inline-block;
+}
+
+.text-block {
+    position: absolute;
+    width: 200px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    bottom:
+}
+
 

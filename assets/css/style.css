@@ -83,6 +83,14 @@ h1 {
     border: 3px solid black;
 }
 
+#content-portfolio {
+    margin-top: 180px;
+    margin-bottom: 80px;
+    padding: 20px;
+    background-color: lightsteelblue;
+    border: 3px solid black;
+}
+
 #profile-pic {
     float: left;
     border-radius: 5%;
@@ -133,3 +141,8 @@ input[type=submit] {
 input[type=submit]:hover { 
     background-color: #357975;
 }
+
+.portfolio-image {
+    margin: 50px;
+}
+
